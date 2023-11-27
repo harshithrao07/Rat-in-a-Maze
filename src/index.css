@@ -28,6 +28,10 @@ main {
   background-color: #BFB8AD;
 }
 
+.cell:hover {
+  cursor: pointer;
+}
+
 .blocked {
   background-color: #823329;
   color: white;
