@@ -1,3 +1,12 @@
+# Rat in a Maze
+A simple web app made using React that shows all the possible paths a rat can take from top left to bottom right of a square maze with fixed obstacles in between. The app will be a visualisation of the famous Rat in a Maze problem.
+
+## Technologies
+JavaScript, ReactJs, React Routers, Data Structure and Algorithm
+
+## Live Site
+https://rat-in-a-maze-react.vercel.app/
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
