@@ -1,13 +1,54 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 5%;
+  background-color: #EADEDA;
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+  align-items: center;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+p {
+  font-size: 12px;
+  margin: 0;
+}
+
+main {
+  text-align: center;
+}
+
+
+
+.cell {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 5px;
+  border: 1px solid black;
+  background-color: #BFB8AD;
+}
+
+.blocked {
+  background-color: #823329;
+  color: white;
+  border: 1px solid white;
+}
+
+.image {
+  width: 80%;
+  margin-inline: auto;
+}
+
+.ways ol li {
+  margin-block: 5px;
+}
+
+input, button{
+  margin-block: 5%;
+  width: 100%;
+}
+
+.mazeParent {
+  display: flex;
+  justify-content: center;
 }
